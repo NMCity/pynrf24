@@ -3,7 +3,12 @@
 # Author: João Paulo Barraca <jpbarraca@gmail.com>
 #
 
-import Adafruit_BBIO.GPIO as GPIO
+#
+# Port of the Beagle Bone library from João Paulo Barraca
+# Author: Christopher Pirner <345y0h@gmail.com>
+
+#import Adafruit_BBIO.GPIO as GPIO  Not uesd in Raspberry PI
+import Ras.PI as GPIO
 import spidev
 import time
 import sys
